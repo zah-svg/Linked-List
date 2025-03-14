@@ -94,7 +94,7 @@ int main() {
     deleteAtFirst(&list);
     printList(list);
 
-    while (list.head != NULL) {
+    while (list.first != NULL) {
         deleteAtFirst(&list);
     }
     printList(list);

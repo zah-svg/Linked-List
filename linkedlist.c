@@ -164,8 +164,7 @@ void modifyAtFirst (LinkedList* list, int newValue){
 	}
 }
 
-void modifyAtLast(LinkedList* list, int newValue){
-	if(list->first = NULL){void modifyAtLast(LinkedList* list, int newValue) {
+void modifyAtLast(LinkedList* list, int newValue) {
     if (list->first == NULL) return;
     Node* temp = list->first;
     while (temp->next != NULL) {
